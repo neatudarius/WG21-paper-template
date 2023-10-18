@@ -26,7 +26,7 @@ Template: [https://github.com/mpark/wg21](https://github.com/mpark/wg21).
 deps/install.sh
 
 # optional extra git hooks activation
-ln -fs .hooks/pre-push .git/hooks
+cd .git/hooks && ln -fs ../../.hooks/pre-push . && cd -
 ```
 
 ## Export Papers
