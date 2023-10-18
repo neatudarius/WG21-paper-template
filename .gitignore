@@ -1,3 +1,5 @@
+# Enable git hooks
+
 # Prerequisites
 *.d
 
@@ -31,12 +33,10 @@
 *.out
 *.app
 
-# Build & exports.
+# Build & exports
 data/defaults.yaml
 data/csl.json
 data/annex-f
 deps/pandoc
 deps/python
-
-# build stuff
 wg21/
