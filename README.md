@@ -22,7 +22,11 @@ Template: [https://github.com/mpark/wg21](https://github.com/mpark/wg21).
 ## Install Deps
 
 ```bash
+# actual install
 deps/install.sh
+
+# optional extra git hooks activation
+ln -fs .hooks/pre-push .git/hooks
 ```
 
 ## Export Papers
