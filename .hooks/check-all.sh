@@ -5,6 +5,6 @@ set -e
 
 source "$(dirname "$(realpath "${0}")")/_util.sh"
 
-"${REPO_PATH}"/.hooks/check-all.sh
+"${REPO_PATH}"/.hooks/lint-all.sh
 
 exit 0

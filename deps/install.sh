@@ -3,7 +3,7 @@
 set -e
 set -x
 
-DEPS_PATH="$(dirname "$(realpath "$0")")"
+DEPS_PATH="$(dirname "$(realpath "${0}")")"
 
 OS="$(uname -s)"
 case "${OS}" in
@@ -15,3 +15,6 @@ esac
 # Install wg21 build helpers.
 git submodule add https://github.com/mpark/wg21.git
 echo "include wg21/Makefile" > Makefile
+
+
+git submodule add "https://github.com/Sarcasm/run-clang-format.git"

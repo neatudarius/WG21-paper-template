@@ -40,3 +40,4 @@ data/annex-f
 deps/pandoc
 deps/python
 wg21/
+run-clang-format/
