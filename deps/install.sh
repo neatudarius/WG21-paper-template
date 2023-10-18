@@ -16,6 +16,6 @@ esac
 git submodule add https://github.com/mpark/wg21.git
 echo "include wg21/Makefile" > Makefile
 
-
+# Instal clang-format runner helper.
 git submodule add "https://github.com/Sarcasm/run-clang-format.git"
 rm -rf  run-clang-format/src
