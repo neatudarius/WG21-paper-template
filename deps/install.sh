@@ -18,3 +18,4 @@ echo "include wg21/Makefile" > Makefile
 
 
 git submodule add "https://github.com/Sarcasm/run-clang-format.git"
+rm -rf  run-clang-format/src
