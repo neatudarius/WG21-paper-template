@@ -23,5 +23,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Lint all files.
         run: |
-        .github/workflows/install.sh
-        .hooks/lint-all.sh
+            ./.github/workflows/install.sh
+            ./.hooks/lint-all.sh
