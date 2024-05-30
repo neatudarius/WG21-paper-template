@@ -1,11 +1,14 @@
 # WG21: ${PAPER_TITLE}
 
-Authors: ${AUTHORS}
+Authors: ${AUTHOR1} ([@${AUTHOR1_GITHUB_ID}](${AUTHOR1_GITHUB_PAGE})), ...
+
+Audience: ...
+
+Description: ...
 
 This repo is a template used for making repos for creating papers for `WG21: C++ Standards Committee Papers`. Please remove this line after cloning the template.
 
-This repo is work for [WG21: C++ Standards Committee Papers](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
-
+> Note: This repo/paper is work for [WG21: C++ Standards Committee Papers](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
 
 ## Introduction
 The top-level of this repository contains the source code for various proposals and the generated/ directory contains the generated proposals (HTML or PDF).
